@@ -5,6 +5,9 @@ import pokemon from '../assets/ImagesForCarousel/pokemon.png'
 
 
 const ImageCarousel = () => {
+    const cycleThrough = () => {
+        // change the state of the object (how?)
+    }
     return (
         <div className="flex flex-row justify-between overflow-scroll" >
             <img src={charmander} className="order-1 mr-[150px]"alt="charmander" />
