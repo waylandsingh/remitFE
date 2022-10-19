@@ -10,6 +10,7 @@ const RemitForm = () => {
             <div class="flex flex-row flex-wrap py-4">
                 <aside class="w-full sm:w-1/3 md:w-1/4 px-2">
                     <div class="sticky top-0 p-4 w-full">
+                        {/* turn these into buttons which show/hide different parts of the form ?*/}
                         <ul class="flex flex-col overflow-hidden">
                             ☑ Sender Information
                         </ul>
@@ -26,7 +27,7 @@ const RemitForm = () => {
                 </aside>
                 <main role="main" class="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
                     <form className="flex flex-col pb-20">
-                    {/* break these into components that are rendered individually */}
+                    {/* break these into components that are rendered individually from object with data*/}
                         <label className="flex flex-col pb-2 ">
                             First Name:
                         <input type="text" name="senderFirstName" />
