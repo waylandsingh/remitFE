@@ -3,6 +3,7 @@
 // import the components that you'd like to `import ___ from 'components`
 import Hero from './Hero';
 import Navbar from './Navbar';
+import ImageCarousel from './ImageCarousel';
 
 
 
@@ -10,5 +11,6 @@ import Navbar from './Navbar';
 
 export {
     Hero, 
-    Navbar
+    Navbar,
+    ImageCarousel
 }
