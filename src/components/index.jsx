@@ -2,7 +2,8 @@
 
 // import the components that you'd like to `import ___ from 'components`
 import Hero from './Hero';
-import Navbar from './Navbar';
+import Navbar from './Navbar';  
+import RemitForm from './RemitForm';
 import ImageCarousel from './ImageCarousel';
 
 
@@ -12,5 +13,6 @@ import ImageCarousel from './ImageCarousel';
 export {
     Hero, 
     Navbar,
+    RemitForm,
     ImageCarousel
 }
