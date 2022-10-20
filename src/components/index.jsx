@@ -4,6 +4,7 @@
 import Hero from './Hero';
 import Navbar from './Navbar';  
 import RemitForm from './RemitForm';
+import ImageCarousel from './ImageCarousel';
 
 
 
@@ -12,5 +13,6 @@ import RemitForm from './RemitForm';
 export {
     Hero, 
     Navbar,
-    RemitForm
+    RemitForm,
+    ImageCarousel
 }
