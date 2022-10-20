@@ -56,7 +56,7 @@ const RemitForm = () => {
                             Amount:
                         <input type="text" name="transactionAmount" />
                         </label>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Submit" className={`border-2 border-white hover:bg-sky-700 hover:cursor-pointer`}/>
                     </form>
                 </main>
             </div>
